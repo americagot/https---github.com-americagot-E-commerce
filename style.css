@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300;400;700&family=Monoton&family=Nunito:wght@200;300;400;500;600;700;800&family=Tilt+Prism&family=Tourney:wght@400;500&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
+
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+.d-block {
+  height: 650px;
+  padding: 1px;
+}
+
+.carosel {
+  padding-top: 4rem;
+  background-color: rgb(253, 248, 250);
+}
+
+.logo {
+  width: 10%;
+}
+
+.navbar-brand {
+  font-family: "Tourney";
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.catagory {
+  display: flex;
+  justify-content: space-around;
+  gap: 10rem;
+}
+
+.cat-heading {
+  font-family: "Tourney";
+  padding: 2rem 2rem;
+}
+
+.card {
+  box-shadow: 0.1rem 0.1rem 0.1rem #c7c7c7b6;
+}
+
+.lp {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  position: relative;
+  margin-left: 60px;
+  row-gap: 3.5rem;
+}
+
+.new-tag {
+  color: #fff;
+  background-color: #f72626;
+  padding: 0.1rem 0;
+  text-align: center;
+  width: 20%;
+  position: absolute;
+  top: 1rem;
+}
+
+.rating ul li {
+  display: inline-block;
+}
+.rating ul {
+  list-style-type: none;
+  margin-left: 25px;
+}
+
+.lp-main {
+  font-size: 1.3rem;
+}
+.price {
+  font-size: 1.7rem;
+  margin-left: 5rem;
+}
+
+.f-container {
+  display: flex;
+  margin-left: 5.5rem;
+  width: 90rem;
+}
+
+.main-features {
+  background-color: rgb(245, 245, 238);
+  padding: 2rem 0;
+  margin-top: 2rem;
+}
+.f-card {
+  margin-right: 5rem;
+  background-color: rgb(245, 245, 238);
+  padding: 2rem 2rem;
+  box-shadow: 0.2rem 0.2rem 0.2rem rgb(246, 246, 90);
+}
+
+.f-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.f-icon {
+  font-size: 3.5rem;
+  margin-left: 9rem;
+  margin-bottom: 3rem;
+}
+
+.features-heading {
+  margin-left: 2rem;
+  padding-bottom: 2rem;
+  font-family: "Tourney";
+}
+
+.cart {
+  font-size: 2rem;
+  margin-left: 1.5rem;
+  color: #333;
+}
+
+.footer-content ul {
+  list-style-type: none;
+}
+
+.footer-content ul li a {
+  color: #333;
+  line-height: 2.5;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+.footer-content ul li a:hover {
+  font-weight: 600;
+  color: #000;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 0;
+}
+.footer-img {
+  width: 5rem;
+}
+
+.footer-logo {
+  width: 20%;
+}
+
+h4 {
+  margin-left: -0.2rem;
+}
+
+.go-top {
+  position: relative;
+}
+.fa-chevron-up {
+  position: absolute;
+  font-size: 2rem;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #807f7f;
+  color: #000;
+  right: 1rem;
+  bottom: 1rem;
+  padding: 2px 2px;
+}
+.media ul {
+  display: flex;
+  gap: 1rem;
+}
+.fa-brands {
+  color: rgb(0, 123, 255);
+  font-size: 1.7rem;
+}
+.latest-products {
+  position: relative;
+}
+.see {
+  color: #000;
+  position: absolute;
+  right: 5rem;
+  top: 5rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-bottom: 3px solid #f72626;
+}
+.update {
+  font-size: 1.6rem;
+}
+.see a:visited {
+  color: #000;
+}
+
+.see a:hover {
+  color: rgb(0, 123, 255);
+}

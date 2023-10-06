@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300;400;700&family=Monoton&family=Nunito:wght@200;300;400;500;600;700;800&family=Tilt+Prism&family=Tourney:wght@400;500&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
+.latest-products {
+  padding: 3rem 0;
+}
+.lp {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  position: relative;
+  margin-left: 60px;
+  row-gap: 3.7rem;
+}
+
+.rating ul li {
+  display: inline-block;
+}
+.rating ul {
+  margin-left: 4.5rem;
+  list-style-type: none;
+}
+
+.lp-main {
+  font-size: 1.3rem;
+}
+.price {
+  font-size: 1.7rem;
+  margin-left: 5rem;
+}
+
+.cat-heading {
+  font-size: 3rem;
+  font-family: "Tourney";
+  margin-left: 3rem;
+  padding: 1rem 0;
+}
+
+.card {
+  box-shadow: 0.1rem 0.1rem 0.1rem #a09e9e;
+  border: 2px solid #949292;
+}
